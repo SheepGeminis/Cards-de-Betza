@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(50, 174, 205);
+}
+h1 {
+    text-align: center;
+    color: rgb(50, 16, 145);
+}
+div.card-node {
+    width: 33%;
+    float: left;
+    padding: 15px;
+    box-sizing: border-box;
+    position: relative;
+}
+div.card-node div.card-node-subtitle {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background-color: teal;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+div.card-node div.card-node-content {
+    background-color: rgb(235, 255, 122);
+    padding: 15px;
+    color: rgb(121, 8, 8);
+}
+div.card-node div.card-node-content h2 {
+    font-weight: bold;
+    font-size: 15px;
+}
+div.card-node div.card-node-content p {
+    font-size: 13px;
+}
+div.container {
+    width: 80%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
